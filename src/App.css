@@ -1,42 +1,49 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import "tailwindcss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  min-height: 100 vh;
+  ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav-brand {
+  font-family: "Schoolbell", cursive;
+  font-weight: bold;
+  font-style: normal;
+
+
 }
 
-.card {
-  padding: 2em;
+.navbar-bg {
+  background-color: rgba(144, 238, 144, 0.534);
 }
 
-.read-the-docs {
-  color: #888;
+
+
+.navbar-bg .nav-link {
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: all 0.8s ease;
+ 
+}
+
+
+.navbar-bg .nav-link:hover {
+  background-color: rgba(144, 238, 144, 0.734);
+  color: black;
+}
+
+.nav-button:hover {
+  background-color: rgba(88, 236, 88, 0.9) !important;
+  color: black !important;
 }
