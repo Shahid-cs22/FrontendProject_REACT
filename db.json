@@ -1,0 +1,33 @@
+
+
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Chocolate Cake",
+            "price": 450,
+            "image": "/images/chocolate-cake.jpg",
+            "description": "Rich chocolate cake with creamy frosting"
+        },
+        {
+            "id": 2,
+            "name": "Vanilla Cake",
+            "price": 400,
+            "image": "/images/vanilla-cake.jpg",
+            "description": "Soft vanilla sponge with butter cream"
+        },
+        {
+            "id": 3,
+            "name": "Red Velvet Cake",
+            "price": 550,
+            "image": "/images/red-velvet.jpg",
+            "description": "Classic red velvet with cheese frosting"
+        }
+    ],
+    "display-data": [
+        {
+            "id": 1,
+            "img":"../assest/disp-1"
+        }
+    ]
+}

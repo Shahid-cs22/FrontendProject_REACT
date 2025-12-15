@@ -16,6 +16,7 @@ import { Col, Row } from 'react-bootstrap';
 // import { Button } from 'react-bootstrap'
 import Button from "@mui/material/Button";
 
+
 const Display = () => {
     return (
         <>
@@ -109,17 +110,51 @@ const Display = () => {
             </Button>
 
             <div className="product-section">
-
                 <h2 className="product-heading">Our Products</h2>
 
-                <Row className='product-image'>
-                    <Col><img src={img7} alt="" /><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4></Col>
-                    <Col><img src={img8} alt="" /><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4></Col>
-                    <Col><img src={img9} alt="" /><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4></Col>
-                    <Col><img src={img10} alt="" /><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4></Col>
+                <Row className="product-image justify-content-center">
+
+                    <Col lg={3} sm={3} xs={4} className="text-center mb-4">
+                        <img src={img8} alt="" />
+                        <p>PASTRIES</p>
+                    </Col>
+
+                    <Col lg={3} sm={3} xs={4} className="text-center mb-4">
+                        <img src={img7} alt="" />
+                        <p>CAKES</p>
+                    </Col>
+
+                    <Col lg={3} sm={3} xs={4} className="text-center mb-4">
+                        <img src={img9} alt="" />
+                        <p>DESSERTS & CUPCAKES</p>
+                    </Col>
+
+                    <Col lg={3} sm={3} xs={4} className="text-center mb-4">
+                        <img src={img10} alt="" />
+                        <p>BROWNIES</p>
+                    </Col>
+
 
                 </Row>
+                <input type="button" value="View More" className='product-btn text-center' />
+
+
             </div>
+
+
+            {/* <div className="section-four">
+                <Table>
+                    <tr>
+
+                        <td>
+                            hjhfjk
+                        </td>
+                        <td>hjhfjkF</td>
+                    </tr>
+                </Table>
+
+            </div> */}
+
 
 
         </>
