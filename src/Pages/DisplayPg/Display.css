@@ -58,7 +58,7 @@
 
 .product-section {
     background: rgba(255, 182, 193, 0.11);
-    height: 100vh;
+    height: 70vh;
 
 }
 
@@ -109,11 +109,54 @@
     display: flex;
     border-radius: 5px;
     border: none;
+    padding-bottom: 20px;
 }
 
 .product-btn:active {
     background-color: rgb(144, 238, 144);
 }
+
+.section-four {
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    ;
+}
+
+.section-four-btn {
+    background-color: rgba(144, 238, 144, 0.733);
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.section-four-btn:active {
+    background-color: rgb(144, 238, 144);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  Mobile */
 @media (min-width: 576px) and (max-width: 767.98px) {

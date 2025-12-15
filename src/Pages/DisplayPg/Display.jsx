@@ -10,6 +10,10 @@ import img7 from "../../assets/product-one.jpg"
 import img8 from "../../assets/product-two.jpg"
 import img9 from "../../assets/product-three.jpg"
 import img10 from "../../assets/product-four.jpg"
+// import img11 from "../../assets/product-five.jpg"
+import img12 from "../../assets/product-six.jpg"
+import img13 from "../../assets/product-seven.gif"
+
 
 import './Display.css';
 import { Col, Row } from 'react-bootstrap';
@@ -142,19 +146,27 @@ const Display = () => {
             </div>
 
 
-            {/* <div className="section-four">
-                <Table>
-                    <tr>
+            <div className="section-four">
+                <Row>
 
-                        <td>
-                            hjhfjk
-                        </td>
-                        <td>hjhfjkF</td>
-                    </tr>
-                </Table>
+                    <Col>
+                        <h3>Packed with love & all your favourites!</h3>
+                        <p>Now gift your loved ones our special hampers curated with our signature products.</p>
+                        <input type="button" value="Know More" className='section-four-btn' />
+                    </Col>
+                    <Col className='align-middle'>
+                        <img src={img12} alt="" style={{ width: "300px" }} />
+                    </Col>
+                </Row>
+                <Row>
 
-            </div> */}
+                    <Col><img src={img13} alt="" style={{ width: "300px" }} /></Col>
+                    <Col> <h3>Tea-Time Delights</h3>
+                        <p>Pick the perfect companion for your tea (or coffee!) from a range of tea cakes & more.</p>
+                    </Col>
+                </Row>
 
+            </div>
 
 
         </>
