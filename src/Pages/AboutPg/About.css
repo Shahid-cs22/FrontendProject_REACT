@@ -12,22 +12,127 @@
 }
 
 /* color: #a9802a;
- font-family: "Josefin Sans", sans-serif; */
+ font-family: "Josefin Sans", sans-serif; 
+  color: #a9802a;
+*/
 
 .para {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     margin-left: 50px;
     margin-right: 50px;
     text-align: justify;
+    font-size: 18px;
 
 }
 
+.promis-one {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #a9802a;
+}
+
+.about-two {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 4rem;
+    padding-bottom: 50px;
+}
+
+.promis-two {
+    text-align: center;
+    margin: 0px 50px;
+    margin-top: 30px;
+}
+
+.about-icon {
+    color: lightgreen;
+    margin-bottom: 20px;
+}
+
+.about-heading {
+    color: #a9802a;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 100px;
+
+}
+
+.about-body {
+    text-align: justify;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.about-body p {
+    text-align: justify;
+}
 
 
+.about-three {
+    background-color: blanchedalmond;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.manager-name {
+    color: #a9802a;
+    font-weight: 700;
+
+}
+
+.manager-description {
+    font-size: 18px;
+}
+
+.about-four-head h3 {
+
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.about-four-head p {
+
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.about-four-btn {
+  background-color: rgba(144, 238, 144, 0.733);
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Josefin Sans", sans-serif;
+  display: block;
+  margin: 0 auto;   /* 👈 centers horizontally */
+  height: 30px;
+  width: 150px;
+}
+
+.about-fout img{
+    height: 100vh;
+}
 
 /*  Mobile */
 @media (max-width: 575.98px) {
     .para {
+        font-size: 14px;
+    }
+
+    .about-heading {
+        font-size: 16px;
+    }
+
+    .about-body {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .manager-name {
+        font-size: 16px;
+    }
+
+    .about-three p {
         font-size: 12px;
     }
 }
@@ -36,7 +141,7 @@
 /*Desktop*/
 @media (min-width: 992px) {
     .para {
-        font-size: 14px;
+        font-size: 18px;
         margin-left: 70px;
         margin-right: 70px;
     }

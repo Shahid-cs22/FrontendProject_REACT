@@ -98,18 +98,15 @@
 }
 
 .product-btn {
-    margin: auto;
-    width: 150px;
-    height: 30px;
     background-color: rgba(144, 238, 144, 0.733);
-    font-size: 18px;
-    font-family: "Josefin Sans", sans-serif;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    font-size: 15px;
     border-radius: 5px;
     border: none;
-    padding-bottom: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 150px;
 }
 
 .product-btn:active {
@@ -131,6 +128,7 @@
     border-radius: 5px;
     border: none;
     font-family: "Josefin Sans", sans-serif;
+    margin: 0 auto;
 
 }
 
@@ -205,13 +203,14 @@
     .section-heading-one {
         font-size: 14px;
     }
+
     .section-img img {
         margin-top: 25px;
     }
 
-  
 
-    
+
+
 }
 
 /*  Tablet */
@@ -231,5 +230,5 @@
         height: 250px;
     }
 
-    
+
 }

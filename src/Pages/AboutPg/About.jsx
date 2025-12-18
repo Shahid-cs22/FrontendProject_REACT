@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './About.css'
 import aboutone from "../../assets/about-one.jpg"
 import RamenDiningIcon from '@mui/icons-material/RamenDining';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-
+import RequestPageIcon from '@mui/icons-material/RequestPage';
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
+import axios from 'axios';
+import aboutimg from '../../assets/about-last.jpg'
 const About = () => {
+
+  const [manager, setManager] = useState([])
+
+  useEffect(() => {
+    axios.get("http://localhost:3000/managers")
+      .then(res => setManager(res.data))
+      .catch(err => console.log(err))
+  }, [])
+
   return (
     <>
 
@@ -36,26 +48,84 @@ const About = () => {
           <div className="promis-one">Our Promise</div>
           <div className="promis-two">
             <Row>
-              <Col sm={12}>
-                <p> <RamenDiningIcon /><br />
-                  <span>RamenDiningIcon</span> <br />
-                  <span>Our products are based on traditional home-style recipes, using fresh ingredients.</span>
+              <Col sm={6} lg={3} xs={6}>
+                <p><span className='about-icon'><RamenDiningIcon /></span> <br /> <br />
+                  <span className='about-heading' >AUTHENTIC RECIPES</span> <br /><br />
+                  <span className='about-body'>Our products are based on traditional home-style recipes, using fresh ingredients.</span>
                 </p>
               </Col>
-              <Col sm={12}>
-                <p><span><FavoriteIcon /></span><br />
-                  <span>BAKED WITH LOVE</span><br />
-                  <span>Our passion for baking is poured into every recipe, serving smiles on a plate everyday.</span>
+              <Col sm={6} lg={3} xs={6}>
+                <p><span className='about-icon'><FavoriteIcon /></span><br /><br />
+                  <span className='about-heading'>BAKED WITH LOVE</span><br /><br />
+                  <span className='about-body'>Our passion for baking is poured into every recipe, serving smiles on a plate everyday.</span>
                 </p>
               </Col>
-              <Col sm={12}>
-              
+              <Col sm={6} lg={3} xs={6}>
+                <p><span className='about-icon'><RequestPageIcon /></span><br /><br />
+                  <span className='about-heading'>HONESTLY PRICED</span><br /><br />
+                  <span className='about-body'>We constantly strive to offer the best products at the right prices.</span>
+                </p>
               </Col>
-              <Col sm={12}></Col>
+              <Col sm={6} lg={3} xs={6}>
+                <p><span className='about-icon'><CardGiftcardIcon /></span><br /><br />
+                  <span className='about-heading'>GOOD QUALITY</span><br /><br />
+                  <span className='about-body'>From our ingredients to our kitchen operations & guest services, we always prioritize quality.</span>
+                </p>
+              </Col>
             </Row>
           </div>
         </div>
 
+        <div className="about-three" >
+
+          {/* {
+            manager.map((data) => (
+              <div key={data.id}>
+                <h5>{data.name}</h5>
+                <h6>{data.description}</h6>
+               <img src={data.image} alt=""  style={{ width: "150px", height: "150px" }}/>
+              </div>
+            ))
+          } */}
+          <Container>
+            <Row className="g-5">
+
+              {
+                manager.map((data) => (
+                  <Col key={data.id} xs={4} md={4} className="text-center">
+                    <img
+                      src={data.image}
+
+                      className="img-fluid rounded-circle mb-3 text-center"
+                      style={{ width: "120px", height: "150px", objectFit: "cover", backgroundColor: "white", alignContent: "center", alignItems: "center" }}
+                    />
+                    <h5 className='manager-name'>{data.name}</h5>
+                    <p className='manager-description'>{data.description}</p>
+                  </Col>
+                ))}
+
+            </Row>
+          </Container>
+        </div>
+
+        <div className="about-fout">
+
+          <div className="about-four-head">
+
+            <h3>Like our products?</h3>
+            <p>Treat yourself to your favourite Theobroma products or surprise your loved ones with an edible gift.</p>
+
+            <input
+              type="button"
+              value="ONLINE ORDER"
+              className="about-four-btn"
+            />
+
+          </div>
+          <div className="about-four-img">
+            <img src={aboutimg} alt="" />
+          </div>
+        </div>
 
       </div>
 

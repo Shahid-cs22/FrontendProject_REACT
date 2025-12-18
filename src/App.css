@@ -68,3 +68,15 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
+
+
+
+
+@media (max-width: 575.98px) {
+  .rooter-row a{
+    font-size: 12px;
+  }
+  .footer-p{
+     font-size: 12px;
+  }
+}

@@ -1,33 +1,40 @@
-
-
 {
-    "products": [
+    "managers": [
         {
-            "id": 1,
-            "name": "Chocolate Cake",
-            "price": 450,
-            "image": "/images/chocolate-cake.jpg",
-            "description": "Rich chocolate cake with creamy frosting"
+            "id": "1",
+            "name": "RISHI GOUR",
+            "image": "/images/about-manager1.jpg",
+            "description": "Chief Marketing Officer"
         },
         {
             "id": 2,
-            "name": "Vanilla Cake",
-            "price": 400,
-            "image": "/images/vanilla-cake.jpg",
-            "description": "Soft vanilla sponge with butter cream"
+            "name": "KUNAL KUMAR",
+            "image": "/images/about-manager4.jpg",
+            "description": "Head – Production"
         },
         {
             "id": 3,
-            "name": "Red Velvet Cake",
-            "price": 550,
-            "image": "/images/red-velvet.jpg",
-            "description": "Classic red velvet with cheese frosting"
-        }
-    ],
-    "display-data": [
+            "name": "TINA SETHI",
+            "image": "/images/about-manager2.jpg",
+            "description": "Chief Marketing Officer"
+        },
         {
-            "id": 1,
-            "img":"../assest/disp-1"
+            "id": 4,
+            "name": "SUNDRANI",
+            "image": "/images/about-manager1.jpg",
+            "description": "Chief Human Resources Officer"
+        },
+        {
+            "id": 5,
+            "name": "ABHISHEK",
+            "image": "/images/about-manager6.jpg",
+            "description": "Chief Financial Officer"
+        },
+        {
+            "id": 6,
+            "name": "SIMANTINI",
+            "image": "/images/about-manager1",
+            "description": "General Counsel and Company Secretary"
         }
     ]
 }
