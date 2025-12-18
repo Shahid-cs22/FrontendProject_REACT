@@ -62,6 +62,7 @@ const Footer = () => {
 
           </Row>
         </div>
+        <hr />
         <div className="text-center py-3 footer-copy">
           <Col> &copy; {new Date().getFullYear()}. All Rights Reserved.</Col>
         </div>

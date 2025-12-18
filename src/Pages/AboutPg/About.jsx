@@ -1,6 +1,9 @@
 import React from 'react'
 import './About.css'
 import aboutone from "../../assets/about-one.jpg"
+import RamenDiningIcon from '@mui/icons-material/RamenDining';
+import { Col, Row } from 'react-bootstrap';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 const About = () => {
   return (
@@ -28,6 +31,32 @@ const About = () => {
             </p>
           </div>
         </div>
+
+        <div className="about-two">
+          <div className="promis-one">Our Promise</div>
+          <div className="promis-two">
+            <Row>
+              <Col sm={12}>
+                <p> <RamenDiningIcon /><br />
+                  <span>RamenDiningIcon</span> <br />
+                  <span>Our products are based on traditional home-style recipes, using fresh ingredients.</span>
+                </p>
+              </Col>
+              <Col sm={12}>
+                <p><span><FavoriteIcon /></span><br />
+                  <span>BAKED WITH LOVE</span><br />
+                  <span>Our passion for baking is poured into every recipe, serving smiles on a plate everyday.</span>
+                </p>
+              </Col>
+              <Col sm={12}>
+              
+              </Col>
+              <Col sm={12}></Col>
+            </Row>
+          </div>
+        </div>
+
+
       </div>
 
     </>
