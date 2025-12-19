@@ -88,16 +88,16 @@ const About = () => {
             ))
           } */}
           <Container>
-            <Row className="g-5">
+            <Row className="g-1">
 
               {
                 manager.map((data) => (
-                  <Col key={data.id} xs={4} md={4} className="text-center">
+                  <Col key={data.id} xs={4} md={4} lg={4} className="text-center">
                     <img
                       src={data.image}
 
-                      className="img-fluid rounded-circle mb-3 text-center"
-                      style={{ width: "120px", height: "150px", objectFit: "cover", backgroundColor: "white", alignContent: "center", alignItems: "center" }}
+                      className="img-fluid image-img  mb-3 text-center"
+                      style={{ width:"250px", height:"auto", objectFit: "cover", backgroundColor: "white", alignItems:"center", borderRadius:"20px"}}
                     />
                     <h5 className='manager-name'>{data.name}</h5>
                     <p className='manager-description'>{data.description}</p>

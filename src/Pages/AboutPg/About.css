@@ -69,8 +69,9 @@
 
 
 .about-three {
-    background-color: blanchedalmond;
+    background-color: rgba(255, 235, 205, 0.322);
     font-family: "Josefin Sans", sans-serif;
+    padding-top: 50px;
 }
 
 .manager-name {
@@ -109,9 +110,9 @@
   width: 150px;
 }
 
-.about-fout img{
-    height: 100vh;
-}
+/* .about-fout img{
+    height: 80vh;
+} */
 
 /*  Mobile */
 @media (max-width: 575.98px) {
@@ -135,8 +136,18 @@
     .about-three p {
         font-size: 12px;
     }
+    .manager-name{
+        font-size: 15px;
+    }
 }
 
+/* Tab */
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+     .manager-name{
+        font-size: 16px;
+    }
+}
 
 /*Desktop*/
 @media (min-width: 992px) {

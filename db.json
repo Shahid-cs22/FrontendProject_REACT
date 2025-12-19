@@ -3,38 +3,115 @@
         {
             "id": "1",
             "name": "RISHI GOUR",
-            "image": "/images/about-manager1.jpg",
+            "image": "/images/about-manag1.jpg",
             "description": "Chief Marketing Officer"
         },
         {
             "id": 2,
             "name": "KUNAL KUMAR",
-            "image": "/images/about-manager4.jpg",
+            "image": "/images/about-manag4.jpg",
             "description": "Head – Production"
         },
         {
             "id": 3,
             "name": "TINA SETHI",
-            "image": "/images/about-manager2.jpg",
+            "image": "/public/images/about-manag2.jpg",
             "description": "Chief Marketing Officer"
         },
         {
             "id": 4,
             "name": "SUNDRANI",
-            "image": "/images/about-manager1.jpg",
+            "image": "/images/about-manag3.jpg",
             "description": "Chief Human Resources Officer"
         },
         {
             "id": 5,
             "name": "ABHISHEK",
-            "image": "/images/about-manager6.jpg",
+            "image": "/images/about-manag6.jpg",
             "description": "Chief Financial Officer"
         },
         {
             "id": 6,
             "name": "SIMANTINI",
-            "image": "/images/about-manager1",
+            "image": "/images/about-manag5",
             "description": "General Counsel and Company Secretary"
+        }
+    ],
+    "product": [
+        {
+            "id": 1,
+            "description": "Brownies",
+            "image": "/images/product-img-001.jpg"
+        },
+        {
+            "id": 2,
+            "description": "Breads",
+            "image": "/images/product-img01.jpg"
+        },
+        {
+            "id": 3,
+            "description": "Croissants & Danishes",
+            "image": "/images/product-img02.jpg"
+        },
+        {
+            "id": 4,
+            "description": "Pastries",
+            "image": "/images/product-img03.jpg"
+        },
+        {
+            "id": 5,
+            "description": "Beverages",
+            "image": "/images/product-img04.jpg"
+        },
+        {
+            "id": 6,
+            "description": "Sandwiches & Savouries",
+            "image": "/images/product-img05.jpg"
+        },
+        {
+            "id": 7,
+            "description": "Biscuits, Cookies & Crackers",
+            "image": "/images/product-img06.jpg"
+        },
+        {
+            "id": 8,
+            "description": "Cakes",
+            "image": "/images/product-img07.jpg"
+        },
+        {
+            "id": 9,
+            "description": "Combos",
+            "image": "/images/product-img08.jpg"
+        },
+        {
+            "id": 10,
+            "description": "Desserts & Cupcakes",
+            "image": "/images/product-img09.jpg"
+        },
+        {
+            "id": 11,
+            "description": "Tea Cakes",
+            "image": "/images/product-img10.jpg"
+        },
+        {
+            "id": 12,
+            "description": "Gifting",
+            "image": "/images/product-img11.jpg"
+        },
+        {
+            "id": 13,
+            "description": "Collectibles",
+            "image": "/images/product-img12.jpg"
+        },
+        {
+            "id": 14,
+            "description": "Strawberry Specials",
+            "image": "/images/product-img13.jpg"
+        },
+        {
+            "id": 15,
+            "description": "Christmas Specials",
+            "image": "/images/product-img14.jpg"
         }
     ]
 }

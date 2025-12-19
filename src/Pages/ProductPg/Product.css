@@ -1,3 +1,84 @@
-.product-section{
-    font-weight: 500;
+.product-sectionn {
+
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.product-head {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #a9802a;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.product-head-sub {
+    margin: 10px 50px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.roe-product p {
+    padding-top: 10px;
+    color: #a9802a;
+    font-weight: 700;
+
+}
+
+.product-button {
+    background-color: rgba(144, 238, 144, 0.733);
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.product-button:active{
+    background-color: rgba(144, 238, 144, 0.884);
+}
+
+/* .cvccv{
+    margin: 0 10px;
+} */
+
+/* .product-section-two{
+    margin: 0px, 100px;
+
+} */
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    .product-head-sub {
+        font-size: 14px;
+        color: red;
+    }
+
+    .product-head {
+        font-size: 23px;
+    }
+
+    .roe-product p {
+        font-size: 14px;
+    }
+
+    .product-button {
+        
+        font-size: 12px;
+        border-radius: 5px;
+        border: none;
+        height: 20px;
+        width: 100px;
+        margin: 0 auto;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .product-head-sub {
+        font-size: 18px;
+        color: blue;
+    }
 }
