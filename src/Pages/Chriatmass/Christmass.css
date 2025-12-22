@@ -20,12 +20,96 @@
     margin: 0 100px;
     text-align: justify;
     font-size: 18px;
-    padding-top: 2REM;
+    padding-top: 2rem;
 }
 
 
 
+.christmass-card {
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    background: #fff;
+    height: 100%;
+}
 
+
+.christmass-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+
+}
+
+.item-name {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 8px;
+    color: #a9802a;
+}
+
+/* 🎄 Badge */
+.christmas-badge {
+
+    top: 10px;
+    left: 10px;
+    background: crimson;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+
+}
+
+
+.price-box {
+    margin: 8px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 7px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.offer-price {
+    color: green;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.limited-offer {
+    font-size: 13px;
+    color: #d35400;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+.order-btn {
+    background-color: rgba(144, 238, 144, 0.733);
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.order-btn:active{
+background-color: rgba(144, 238, 144, 0.952);
+    
+
+}
+
+.xmass-two {
+    padding-top: 2rem;
+}
 
 
 /* Mobile */
@@ -38,8 +122,30 @@
         margin: 0 30px;
         font-size: 16px;
     }
+
+    .christmass-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 6px;
+
+    }
+
+    .item-name {
+        font-size: 14px;
+    }
+
+    .original-price {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .offer-price {
+        font-weight: 700;
+        font-size: 15px;
+    }
 }
 
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+/* @media (min-width: 768px) and (max-width: 991.98px) {} */

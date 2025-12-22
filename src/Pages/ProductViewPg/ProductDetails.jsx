@@ -13,7 +13,7 @@ const ProductDetails = () => {
 
     const goToProduct = () => navigate('/product')
 
- 
+
 
     useEffect(() => {
         axios
@@ -21,6 +21,8 @@ const ProductDetails = () => {
             .then(res => setProduct(res.data))
             .catch(() => setProduct(false))
     }, [id])
+
+
 
     if (product === null) return <div className="text-center mt-5">Loading...</div>
     if (product === false) return <div className="text-center mt-5">Product not found</div>

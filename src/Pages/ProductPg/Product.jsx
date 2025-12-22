@@ -37,7 +37,7 @@ const Product = () => {
 
       <div className="product-section-two">
         <Container>
-          <Row className='g-2 roe-product'>
+          <Row className='g-3 roe-product'>
             {products.map((data) => (
               <Col key={data.id} xs={6} sm={6} md={4} lg={3} className="text-center mb-3">
                 <img src={data.image} alt={data.name} className='img-fluid' />
@@ -45,7 +45,7 @@ const Product = () => {
 
 
 
-                <Link to={`/product/${data.id}`} className="product-button">
+                <Link to={`/product/${data.id}`} className="product-button ">
                   Order Me
                 </Link>
 

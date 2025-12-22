@@ -1,0 +1,50 @@
+.christmas-view {
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+  align-items: center;
+  background: #5f866c1c;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.christmas-view img {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.price-box {
+  margin: 12px 0;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 10px;
+}
+
+.offer-price {
+  color: green;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.limited-offer {
+  color: crimson;
+  font-weight: 600;
+}
+
+.btn-btn-color{
+     background-color: rgba(144, 238, 144, 0.733);
+    width: 180px;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+}
+
+.btn-btn-color:active{
+    transform: scale(0.98);
+     background-color: rgba(144, 238, 144, 0.89);
+}

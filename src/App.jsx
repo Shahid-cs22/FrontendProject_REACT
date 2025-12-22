@@ -11,6 +11,7 @@ import Display from './Pages/DisplayPg/Display';
 // import AddToCart from './Pages/AddCart/AddToCart';
 import Footer from './Components/Footer.jsx'
 import ProductDetails from './Pages/ProductViewPg/ProductDetails';
+import ChristmassViewPg from './Christmassviewpg/ChristmassViewPg.jsx';
 
 
 
@@ -29,7 +30,8 @@ const App = () => {
         <Route path='/footer' element={<Footer />} />
         <Route path="/product" element={<Product />} />
         <Route path="/product/:id" element={<ProductDetails />} />
-
+          <Route path="/christmass/:id" element={<ChristmassViewPg />} />
+        
 
 
       </Routes>
