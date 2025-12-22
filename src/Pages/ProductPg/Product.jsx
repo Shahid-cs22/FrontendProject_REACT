@@ -7,6 +7,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import img2 from '../../assets/about-last.jpg'
 
 const Product = () => {
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const navi = useNavigate();
   const goToContact = () => navi('/contact');
@@ -14,7 +15,7 @@ const Product = () => {
   const [products, setProducts] = useState([])
 
   useEffect(() => {
-    axios.get("http://localhost:3000/product")
+    axios.get(`${apiUrl}/product`)
       .then(res => setProducts(res.data))
       .catch(err => console.log(err))
   }, [])

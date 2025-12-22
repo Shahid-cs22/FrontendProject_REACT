@@ -10,10 +10,11 @@ import axios from 'axios';
 import aboutimg from '../../assets/about-last.jpg'
 const About = () => {
 
+  const apiUrl = import.meta.env.VITE_API_URL;
   const [manager, setManager] = useState([])
 
   useEffect(() => {
-    axios.get("http://localhost:3000/managers")
+        axios.get(`${apiUrl}/managers`)
       .then(res => setManager(res.data))
       .catch(err => console.log(err))
   }, [])
