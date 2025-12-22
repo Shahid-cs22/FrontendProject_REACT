@@ -143,5 +143,119 @@
             "price": 400,
             "image": "/images/product-img14.jpg"
         }
+    ],
+    "christmas": [
+        {
+            "id": 1,
+            "name": "Classic Christmas Fruit Cake",
+            "price": 1200,
+            "offer": "20% OFF",
+            "image":"/images/christmass-img1.jpg",
+            "final_price": 960
+        },
+        {
+            "id": 2,
+            "name": "Plum Cake",
+            "price": 900,
+            "offer": "Buy 1 Get 1 at 50% OFF",
+             "image":"/images/christmass-img02.jpg",
+            "final_price": 675
+        },
+        {
+            "id": 3,
+            "name": "Chocolate Christmas Cake",
+            "price": 1100,
+            "offer": "Flat ₹200 OFF",
+             "image":"/images/christmass-img03.jpg",
+            "final_price": 900
+        },
+        {
+            "id": 4,
+            "name": "Red Velvet Christmas Cake",
+            "price": 1400,
+            "offer": "15% OFF",
+             "image":"/images/christmass-img04.jpg",
+            "final_price": 1190
+        },
+        {
+            "id": 5,
+            "name": "White Forest Christmas Cake",
+            "price": 1300,
+            "offer": "Free Christmas Cookies",
+             "image":"/images/christmass-img05.jpg",
+            "final_price": 1300
+        },
+        {
+            "id": 6,
+            "name": "Black Forest Christmas Cake",
+            "price": 1000,
+            "offer": "10% OFF",
+             "image":"/images/christmass-img06.jpg",
+            "final_price": 900
+        },
+        {
+            "id": 7,
+            "name": "Butterscotch Christmas Cake",
+            "price": 950,
+            "offer": "Flat ₹150 OFF",
+             "image":"/images/christmass-img07.jpg",
+            "final_price": 800
+        },
+        {
+            "id": 8,
+            "name": "Vanilla Christmas Snow Cake",
+            "price": 850,
+            "offer": "Buy 2 Get 1 Free",
+             "image":"/images/christmass-img08.jpg",
+            "final_price": 850
+        },
+        {
+            "id": 9,
+            "name": "Carrot Walnut Christmas Cake",
+            "price": 1250,
+            "offer": "12% OFF",
+             "image":"/images/christmass-img09.jpg",
+            "final_price": 1100
+        },
+        {
+            "id": 10,
+            "name": "Coffee Mocha Christmas Cake",
+            "price": 1350,
+            "offer": "Free Hot Chocolate",
+             "image":"/images/christmass-img10.jpg",
+            "final_price": 1350
+        },
+        {
+            "id": 11,
+            "name": "Dry Fruit Delight Cake",
+            "price": 1600,
+            "offer": "20% OFF",
+            "image":"/images/christmass-img11.jpg",
+            "final_price": 1280
+        },
+        {
+            "id": 12,
+            "name": "Rum Soaked Christmas Cake",
+            "price": 1500,
+            "offer": "Flat ₹300 OFF",
+            "image":"/images/christmass-img12.jpg",
+            "final_price": 1200
+        },
+        {
+            "id": 13,
+            "name": "Orange Zest Christmas Cake",
+            "price": 1150,
+            "offer": "10% OFF",
+            "image":"/images/christmass-img13.jpg",
+            "final_price": 1035
+        },
+        {
+            "id": 14,
+            "name": "Chocolate Truffle Christmas Cake",
+            "price": 1450,
+            "offer": "Free Cake Topper",
+            "image":"/images/christmass-img14.jpg",
+            "final_price": 1450
+        }
     ]
 }
