@@ -13,9 +13,7 @@ const ProductDetails = () => {
 
     const goToProduct = () => navigate('/product')
 
-    const addToCart = () => {
-        console.log("Added to cart:", product)
-    }
+ 
 
     useEffect(() => {
         axios
@@ -42,7 +40,7 @@ const ProductDetails = () => {
             <div className="d-flex justify-content-center gap-3 mt-3">
                 <input type="button" value="Go To Product List" onClick={goToProduct} className='btn-btn-color' />
 
-                <Button variant="warning" onClick={addToCart}>
+                <Button variant="warning" >
                     <ShoppingCartCheckoutIcon /> Add to Cart
                 </Button>
             </div>
