@@ -4,10 +4,20 @@
 
 }
 
-.product-section-two{
+.product-sectionn-one {
+    background: url("../../assets/product-img1.jpg");
+    background-size: cover;
+    /* fills container */
+    height: 300px;
+}
+
+
+.product-section-two {
     background: whitesmoke;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 50px;
+
+
 }
 
 .product-head {
@@ -33,7 +43,7 @@
 }
 
 .product-button {
-    display: flex;                 
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(144, 238, 144, 0.733);
@@ -42,8 +52,8 @@
     border: none;
     height: 30px;
     width: 150px;
-    margin: 0 auto;              
-    text-decoration: none;         
+    margin: 0 auto;
+    text-decoration: none;
     color: black;
     cursor: pointer;
 }
@@ -52,21 +62,28 @@
     background-color: rgba(144, 238, 144, 0.884);
 }
 
-.product-last-section{
+.product-last-section {
     text-align: center;
     padding-top: 30px;
+    background: url("../../assets/about-last.jpg");
+    height: 70vh;
+
+
 }
 
-.product-last-section h2{
+.product-last-section h2 {
     font-size: 28px;
     font-weight: 700;
     color: #a9802a;
     margin-bottom: 15px;
+    margin-top: 5rem;
 }
-.product-last-section p{
+
+.product-last-section p {
     font-size: 18px;
     margin-bottom: 20px;
 }
+
 .product-last-section .btn-btn-color-ttn {
     background-color: rgba(144, 238, 144, 0.733);
     font-size: 15px;
@@ -82,7 +99,7 @@
 @media (max-width: 575.98px) {
     .product-head-sub {
         font-size: 14px;
-        color: red;
+        
     }
 
     .product-head {
@@ -94,13 +111,16 @@
     }
 
     .product-button {
-        
+
         font-size: 12px;
         border-radius: 5px;
         border: none;
         height: 20px;
         width: 100px;
         margin: 0 auto;
+    }
+    .product-last-section{
+        background-position:center;
     }
 }
 

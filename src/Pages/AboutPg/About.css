@@ -1,20 +1,18 @@
-.about-section {
-    font-weight: 500;
-}
-
 .about-one {
     text-align: center;
+    padding-top: 2rem;
+
+
 }
 
-.about-two{
-    background: url("../../assets/about-one.jpg");
-    height: 100vh;
+.about-two-head {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #a9802a;
+
 }
 
-/* color: #a9802a;
- font-family: "Josefin Sans", sans-serif; 
-  color: #a9802a;
-*/
 
 .para {
     font-family: "Josefin Sans", sans-serif;
@@ -22,6 +20,7 @@
     margin-right: 50px;
     text-align: justify;
     font-size: 18px;
+    margin-top: 50px;
 
 }
 
@@ -88,9 +87,9 @@
 
     text-align: center;
     padding-top: 80px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #a9802a;
-    font-weight: 700;
+    font-weight: 600;
 
 
 }
@@ -157,12 +156,16 @@
     }
 
     .about-three p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .manager-name {
         font-size: 15px;
     }
+    .about-fout{
+        background-position:center;
+    }
+    
 }
 
 /* Tab */

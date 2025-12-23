@@ -4,11 +4,14 @@
 
 .specal-section {
      text-align: center;
+}
 
+.specal-one-img{
+     background: url("../../assets/special-img1.jpg"); 
 }
 
 .special-one {
-     margin-top: 50px;
+     
      color: #a9802a;
      font-weight: bold;
 }
@@ -17,6 +20,7 @@
      margin: 15px 100px;
      text-align: justify;
      font-size: 18px;
+     padding-bottom: 50px;
 
 }
 
@@ -60,18 +64,10 @@
      margin-top: 50px;
 }
 
-/* .specal-four-btn {
-     background-color: rgba(144, 238, 144, 0.733);
-     font-size: 15px;
-     border-radius: 5px;
+.specal-four{
+     background: url("../../assets/special-img7.jpg");
+}
 
-     margin: 0 auto;
-     height: 30px;
-     width: 150px;
-     display: flex;
-     justify-content: center;
-     gap: 15px;
-} */
 .specal-four-btn {
      display: flex;
      gap: 12px;
@@ -103,10 +99,14 @@
      justify-content: center;
      gap: 15px;
      margin: 10px;
+     padding-bottom: 60px;
 
 
 }
 
+.special-title{
+     padding-top: 50px;
+}
 
 /*  Mobile */
 @media (max-width: 575.98px) {

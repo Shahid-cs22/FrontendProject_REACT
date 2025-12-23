@@ -24,11 +24,11 @@ const About = () => {
 
       <div className='about-section'>
         <div className="about-one">
-          <div className="about-two">
-            <p>About Page</p>
 
-           
+          <div className="about-two-head">
+            <h3>About Page</h3>
           </div>
+
           <div className="para">
             <p >Theobroma means 'Food of the Gods' in Greek, befitting our exclusive and indulgent range \
               of offerings that include brownies, cakes, desserts, chocolates, breads, and savouries.
@@ -41,10 +41,11 @@ const About = () => {
 
             </p>
           </div>
+
         </div>
 
         <div className="about-two">
-          <div className="promis-one">Our Promise</div>
+          <div className="promis-one"><h3>Our Promise</h3></div>
           <div className="promis-two">
             <Row>
               <Col sm={6} lg={3} xs={6}>

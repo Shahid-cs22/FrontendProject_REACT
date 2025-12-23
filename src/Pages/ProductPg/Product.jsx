@@ -29,10 +29,6 @@ const Product = () => {
           At Theobroma, we offer a wide range of products, both sweet & savoury.
           Our offerings include indulgent brownies, cakes & desserts, artisanal breads, puffs & quiches, wholesome sandwiches, wraps & rolls, beverages and more.
         </div>
-
-        <div className="product-image-img">
-          <img src={img1} alt="" className='img-fluid' />
-        </div>
       </div>
 
       <div className="product-section-two">
@@ -63,7 +59,7 @@ const Product = () => {
         <p>Please contact us with your queries or to discuss your requirements.</p>
 
         <input type="button" value="Contact Us" onClick={goToContact} className='btn-btn-color-ttn' />
-        <img src={img2} alt="" className='img-fluid' />
+       
       </div>
     </div>
   )

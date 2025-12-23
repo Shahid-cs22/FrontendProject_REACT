@@ -11,17 +11,17 @@ const Speciality = () => {
     return (
         <>
             <div className="specal-section">
-                <div className="">
+                <div className="specal-one-img">
                     <div className="special-one">
-                        <h2>Speciality Cakes </h2>
+                        <h2 className='pt-5'>Speciality Cakes </h2>
                     </div>
-                    <div className="specal-one-para">
+                    <div className="specal-one-para pt-3 ">
                         Our made-to-order range of speciality cakes is here to make any celebration great!
                         From Theobroma classic cakes to gourmet cakes to customized theme cakes, we have something for every special occasion.
                     </div>
-                    <div className="specal-one-img">
+                    {/* <div className="specal-one-img">
                         <img src={img} alt="" className='img-fluid' />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="specal-two">
@@ -51,10 +51,10 @@ const Speciality = () => {
 
 
                 <div className="specal-three">
-                    <div className="special-one">
+                    <div className="special-one pb-5">
                         <h2>Customised Theme Cakes</h2>
                     </div>
-                    <div className="specal-three-two">
+                    <div className="specal-three-two pb-5">
                         We handcraft and customize celebration cakes for all special occasions. From theme-based and personalized birthday cakes to exquisite multi-tiered wedding cakes, we have all your celebrations covered!
 
                         Write to us with your customized theme cake requirements at - contact@theobroma.in
@@ -73,9 +73,9 @@ const Speciality = () => {
                         <input type="button" value="Mail Us" />
                     </div>
 
-                    <div className="specal-four-img">
+                    {/* <div className="specal-four-img">
                         <img src={img6} alt="" className='img-fluid' />
-                    </div>
+                    </div> */}
 
                 </div>
 
