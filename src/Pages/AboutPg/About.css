@@ -6,9 +6,9 @@
     text-align: center;
 }
 
-.about-two img {
-    max-width: 100%;
-    height: auto;
+.about-two{
+    background: url("../../assets/about-one.jpg");
+    height: 100vh;
 }
 
 /* color: #a9802a;
@@ -88,13 +88,20 @@
 
     text-align: center;
     padding-top: 80px;
+    font-size: 2rem;
+    color: #a9802a;
+    font-weight: 700;
+
 
 }
 
 .about-four-head p {
 
     text-align: center;
-    padding-top: 50px;
+
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 60px;
 
 }
 
@@ -106,11 +113,18 @@
     font-family: "Josefin Sans", sans-serif;
     display: block;
     margin: 0 auto;
-    /* 👈 centers horizontally */
     height: 30px;
     width: 150px;
+
+
 }
 
+
+
+.about-fout {
+    background: url("../../assets/about-last.jpg");
+    height: 70vh;
+}
 
 
 /* .about-fout img{

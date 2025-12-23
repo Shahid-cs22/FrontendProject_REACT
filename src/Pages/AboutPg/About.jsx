@@ -27,9 +27,7 @@ const About = () => {
           <div className="about-two">
             <p>About Page</p>
 
-            <div className="about-three">
-              <img src={aboutone} alt="About section image" className="img-fluid" />
-            </div>
+           
           </div>
           <div className="para">
             <p >Theobroma means 'Food of the Gods' in Greek, befitting our exclusive and indulgent range \
@@ -113,9 +111,10 @@ const About = () => {
             />
 
           </div>
-          <div className="about-four-img">
+          {/* <div className="about-four-img">
             <img src={aboutimg} alt="" />
-          </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda a iste nulla, velit aliquid vero voluptatem officiis optio facere. Provident.
+          </div> */}
         </div>
 
       </div>
