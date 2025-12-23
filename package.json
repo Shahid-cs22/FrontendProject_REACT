@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "start": "node server.js",
     "preview": "vite preview"
-    
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -20,13 +19,13 @@
     "@tailwindcss/vite": "^4.1.17",
     "axios": "^1.13.2",
     "bootstrap": "^5.3.8",
+    "json-server": "^0.17.4",
     "react": "^19.2.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.10.1",
     "tailwindcss": "^4.1.17",
-    "json-server": "^0.17.4"
-    
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
