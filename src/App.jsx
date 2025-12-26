@@ -8,10 +8,11 @@ import Christmass from './Pages/Chriatmass/Christmass';
 import Contact from './Pages/ContactPg/Contact';
 import { Route, Routes } from 'react-router-dom';
 import Display from './Pages/DisplayPg/Display';
-// import AddToCart from './Pages/AddCart/AddToCart';
+
 import Footer from './Components/Footer.jsx'
 import ProductDetails from './Pages/ProductViewPg/ProductDetails';
 import ChristmassViewPg from './Christmassviewpg/ChristmassViewPg.jsx';
+import AddToCart from './Pages/AddCart/AddTOCart.jsx';
 
 
 
@@ -26,7 +27,7 @@ const App = () => {
         <Route path='/speciality' element={<Speciality />} />
         <Route path='/christmass' element={<Christmass />} />
         <Route path='/contact' element={<Contact />} />
-        {/* <Route path='/cart' element={<AddToCart />} /> */}
+        <Route path='/cart' element={<AddToCart />} />
         <Route path='/footer' element={<Footer />} />
         <Route path="/product" element={<Product />} />
         <Route path="/product/:id" element={<ProductDetails />} />
