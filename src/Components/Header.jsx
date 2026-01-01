@@ -6,6 +6,16 @@ import LoginIcon from "@mui/icons-material/Login";
 import { Link } from "react-router-dom";
 import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import { useSelector } from "react-redux";
+import cakeLogo from "../assets/cake-logo1.svg";
+// adjust path based on component location
+
+<img
+  src={cakeLogo}
+  alt="CakeKart Logo"
+  width="30"
+  height="30"
+  className="d-inline-block align-top"
+/>
 
 const Header = () => {
 
@@ -21,7 +31,7 @@ console.log('cart items in header:', cart);
           <Navbar.Brand as={Link} to="/" className="nav-brand">
             <img
               alt=""
-              src="/cake-logo1.svg"
+              src={cakeLogo}
               width="30"
               height="30"
               className="d-inline-block align-top"
